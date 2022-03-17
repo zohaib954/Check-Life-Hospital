@@ -30,7 +30,57 @@
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+.w3-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;,0);}
+.w3-modal-content{margin:auto;background-color:#fff;position:relative;padding:10px;outline:0;width:50%;}
+.academy-container{
 
+padding:20px;
+}
+.academy-container h3{
+margin-20px;
+}
+.academy-content{
+display:flex;
+justify-content:space-evenly;
+width:100%;
+}
+.content-div{
+width:50%;
+}
+.academy-ol{
+list-style-type:decimal;
+font-size:0.8em;
+font-weight:200;
+}
+.academy-table{
+width:100%;
+}
+.academy-table td, .academy th {
+border : 1px solid #ddd;
+padding : 8px;
+}
+.academy-table tr:nth-child(even){
+background-color:#f2f2f2;}
+
+.academy-table th{
+padding-top:12px;
+padding-bottom:12px;
+text-align:left;
+background-color:#cf1313; ;
+color:white;
+}
+.close-button{
+font-size:1.5em;
+font-weight:bolder;
+cursor:pointer;
+color:black;
+float:right;
+}
+ @media (max-width:600px){
+.w3-modal-content{
+
+}	
+}
 *,
 *::before,
 *::after {
